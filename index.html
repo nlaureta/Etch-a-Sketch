@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,19 @@
     <link rel="stylesheet" href="./css/index.css">
     <title>Document</title>
 </head>
-<body>
 
-    <div class = "grid-container">
-        <div class="square-container"></div>
+<body>
+    <div class="overall-container">
+        <div class="control-container">
+            <h1>Controls</h1>
+            <div><input type="range" min="1" max="100" value="16" class="slider"></div>
+            <div><input type="color" id="colorPicker"></button></div>
+        </div>
+        <div class='sketch-container'>
+            <div class="grid-container"></div>
+        </div>
     </div>
 
 </body>
+
 </html>
