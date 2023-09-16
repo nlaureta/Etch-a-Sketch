@@ -14,10 +14,24 @@
         <div class="control-container">
             <h1>Controls</h1>
             <div><input type="range" min="1" max="100" value="16" class="slider"></div>
-            <div><input type="color" id="colorPicker"></button></div>
+            <div>
+                <!-- <input type="color" id="colorPicker"></input> -->
+                <button id="randomizeColor" value="Off" onclick="toggleButton(this)" ;>Randomize Color</button>
+            </div>
         </div>
         <div class='sketch-container'>
-            <div class="grid-container"></div>
+            <div class="yellow-border">
+                <div class="grid-container"></div>
+                Etch a Sketch Doodle
+            </div>
+            <div><input type="range" min="1" max="2" value="0" class="eraseSlider"></div>
+        </div>
+        <div class="pencil-container">
+            <div class="pencil"></div>
+            <div class="pencil-tip"></div>
+        </div>
+        <div class="color-container">
+            <input type="color" id="colorPicker">Pencil Color</input>
         </div>
     </div>
 
