@@ -71,6 +71,21 @@ eraseSlider.addEventListener('input', function () {
     }
 });
 
+function handleResize() {
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 850) {
+        createGrid(squareSize.value);
+    } else {
+        createGrid(squareSize.value); 
+    }
+    draw();
+}
+
 squareSizeValue.textContent = squareSize.value + " x " + squareSize.value;
 createGrid(squareSize.value);
 draw();
+
+handleResize();
+
+window.addEventListener('resize', handleResize);

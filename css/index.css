@@ -220,3 +220,109 @@ input:checked+label:after {
 label:active:after {
     width: 30px;
 }
+
+@media (max-width: 1200px) {
+    .overall-container {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .sketch-container {
+        width: 550px;
+        height: 600px;
+    }
+
+    .pink-border {
+        width: 430px;
+        height: 420px;
+        justify-content: center;
+    }
+
+    .grid-container {
+        width: 400px;
+        height: 400px;
+    }
+
+    .middleText {
+        font-size: 25px;
+    }
+
+    .pencil-container {
+        height: 600px;
+    }
+
+    .pencil {
+        width: 40px;
+        height: 610px;
+    }
+}
+
+@media (max-width: 650px) {
+    .sketch-container {
+        width: 450px;
+        height: 550px;
+    }
+
+    .pink-border {
+        width: 330px;
+        height: 370px;
+        justify-content: center;
+    }
+
+    .grid-container {
+        width: 340px;
+        height: 340px;
+    }
+
+    .middleText {
+        font-size: 25px;
+    }
+
+    .pencil-container {
+        height: 550px;
+        width:40px;
+    }
+
+    .pencil {
+        width: 35px;
+        height: 530px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sketch-container {
+        width: 300px;
+        height: 450px;
+    }
+
+    .pink-border {
+        width: 200px;
+        height: 290px;
+        justify-content: center;
+    }
+
+    .grid-container {
+        width: 240px;
+        height: 240px;
+    }
+
+    .middleText {
+        font-size: 25px;
+    }
+
+    .pencil-container {
+        height: 480px;
+        width:35px;
+    }
+
+    .pencil {
+        width: 25px;
+        height: 480px;
+    }
+    .pencil-tip {
+        border-left: 13px solid transparent;
+        border-right: 13px solid transparent;
+        border-top: 30px solid black;
+    }
+}
